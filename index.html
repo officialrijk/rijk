@@ -76,9 +76,93 @@
 </footer>
 
 </body>
+</html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Officialrijk</title>
+  <style>
+    /* Basic layout */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white; /* all text white */
+      background-color: #0f0f0f; /* dark background */
+    }
+    .sidebar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 150px;
+      height: 100%;
+      background-color: #111;
+      display: flex;
+      flex-direction: column;
+      padding-top: 20px;
+    }
+    .sidebar a {
+      color: white;
+      padding: 15px;
+      text-decoration: none;
+      display: block;
+      font-weight: bold;
+    }
+    .sidebar a:hover {
+      background-color: #444;
+    }
+    .main {
+      margin-left: 150px;
+      padding: 20px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .product {
+      width: 200px;
+      text-align: center;
+    }
+    .product img {
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <a href="#home">Home</a>
+    <a href="#tshirts">T-Shirts</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Main content -->
+  <div class="main">
+    <section id="home">
+      <h1>Welcome to Officialrijk</h1>
+      <p>Everyday and streetwear brand for confidence and style.</p>
+    </section>
+
+    <section id="tshirts">
+      <h2>Our T-Shirts</h2>
+      <div class="products">
+        <!-- Green Rijk T-shirt -->
+        <div class="product">
+          <img src="greenrijk.jpg" alt="Green Rijk T-Shirt">
+          <p>Green Rijk T-Shirt</p>
+          <p>250 Dhs</p>
+        </div>
+        <!-- Add more T-shirts here -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Instagram: <a href="https://instagram.com/officialrijk" style="color:white;">@officialrijk</a></p>
+    </section>
+  </div>
+
+</body>
 </html>
-<div style="text-align:center; width:200px;">
-  <img src="greenrijk.jpg" alt="Green Rijk T-Shirt" width="200">
-  <p style="color:white; font-weight:bold; margin:5px 0;">Green Rijk T-Shirt</p>
-  <p style="color:white;">250 Dhs</p>
-</div>
